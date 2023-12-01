@@ -39,8 +39,9 @@ body {
 
 .container {
     display: block;
-    width: 40vw;
-    margin: 50 px auto 0;
+    width: 50vw;
+    margin: auto;
+    
 }
 
 ul {
