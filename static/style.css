@@ -36,6 +36,10 @@ body {
 .dark_mode #completed-tasks label {
     color: #ffda08;
 }
+.dark_mode #incomplete-tasks label {
+    color: #ff891c;
+}
+
 
 .container {
     display: block;
@@ -155,6 +159,9 @@ li>.delete:hover {
 
 #completed-tasks label {
     color: #888;
+}
+#incomplete-tasks label {
+    color: #000000;
 }
 
 /* Edit Task */
