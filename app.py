@@ -4,11 +4,11 @@ app = Flask(__name__)
  
 @app.route("/")
 def hello():
-    return render_template("index.html")
+    return render_template("login.html")
 
-@app.route("/hi")
+@app.route("/to_do_list")
 def hi():
-    return "Hello World"
+    return render_template("index.html")
 
 @app.route("/hi2")
 def hi2():

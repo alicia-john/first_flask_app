@@ -15,7 +15,6 @@ body {
     text-align: center;
 }
 .dark_mode {
-    background-color: black;
     color: #ffffff;
     font-family: Lato, sans-serif;
     background: #188d87;
@@ -38,6 +37,11 @@ body {
 }
 .dark_mode #incomplete-tasks label {
     color: #ff891c;
+}
+.dark_mod li {
+    overflow: hidden;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
 }
 
 
@@ -131,7 +135,7 @@ input#new-task {
 li {
     overflow: hidden;
     padding: 20px 0;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #333;
 }
 
 li>input[type="checkbox"] {
@@ -182,4 +186,11 @@ ul li.editMode label {
     font-size: 15px;
     float: right;
     text-align: center;
+}
+#login {
+    margin: 0;
+    font-size: 15px;
+    float: left;
+    text-align: center;
+    
 }

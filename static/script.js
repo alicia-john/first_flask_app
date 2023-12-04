@@ -12,6 +12,7 @@ let clearButton = document.getElementById("clear");
 
 let dark_mode_button = document.getElementById("dark_mode");
 
+
 /* Add To Do */
 
 let addTask = function() {
@@ -104,7 +105,6 @@ let editTask = function() {
     listItem.classList.toggle("editMode");
 }
 
-
 /* Delete Tasks */
 
 let deleteTask = function() {
@@ -147,4 +147,7 @@ let dark_mode = function(){
     element.classList.toggle("dark_mode");
 }
 dark_mode_button.addEventListener('click', dark_mode);
+
+
+
 
